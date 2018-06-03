@@ -7,7 +7,8 @@
 using namespace std;
 
 struct edge {
-    int u, v;
+    int u;
+    int v;
     double time;
     void put(int a, int b, double c) {
         u = a;
